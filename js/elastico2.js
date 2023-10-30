@@ -36,6 +36,7 @@ function scrollFunction() {
         document.getElementById("headerIzq").style.display = "none";
         document.getElementById("headerDer").style.width = "100%";
         document.getElementById("navbar").style.border = "solid";
+        document.getElementById("navbar").style.width = "100%";
         document.getElementById("navbar").style.padding = "0";
 
     } else {
@@ -43,6 +44,7 @@ function scrollFunction() {
         document.getElementById("headerIzq").style.display = "block";
         document.getElementById("headerDer").style.width = "80%";
         document.getElementById("navbar").style.border = "none";
+        document.getElementById("navbar").style.width = "80%";
         document.getElementById("navbar").style.padding = "50px 0 0";
     }
 }

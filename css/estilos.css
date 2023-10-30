@@ -550,7 +550,28 @@ footer a:hover{
     }
 }
 
-@media (max-width: 991px){
+@media (max-width: 800px){
+
+    #headerIzq{
+        width:20%;
+    }
+
+    #headerIzq img{
+        width:100%;  
+    }
+
+    #headerDer{
+        width:70%;
+        padding:0 20% 0 0;
+        float:none;
+        margin:0 auto;
+ 
+    }
+
+
+}    
+
+@media (max-width: 801px) and (max-width: 991px){
     .bandas h3{
         font-size: 2rem;
     }
